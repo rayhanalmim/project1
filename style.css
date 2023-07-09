@@ -14,6 +14,23 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+
+.primarybutton--2{
+    border-radius: 5px;
+    border: 2px solid #FD6E0A ;
+    color: #FD6E0A; 
+    background-color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.sec-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
 /* Nav related style */
 nav{
     display: flex;
@@ -43,12 +60,73 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 0px 0px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .profileimg{
     width: 500px;
+}
+.b-1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+.b-head{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.prgh{
+   margin-bottom: 30px;
+}
+.banner-contant{
+    max-width: 500px;
+}
+.margin{
+    margin-right: 20px;
+}
+
+/* main section stylee */
+
+
+
+/* about section---------- */
+
+.about{
+    padding: 100px 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 210px;
+}
+.about-prgh{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.info > p{
+    text-align: center;
+    color: #757575;
+    line-height: 30px;
+}
+.bold{
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+    color: #474747;
 }
