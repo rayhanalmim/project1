@@ -174,3 +174,28 @@ main{
     font-size: 30px;
     font-weight: 700;
 }
+.remuse-container{
+    display: flex;
+    gap: 50px;
+}
+.info-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.title-info{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.item-des{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.button--2{
+    text-align: center;
+    margin: 40px 0px 70px 0px;
+}
+
