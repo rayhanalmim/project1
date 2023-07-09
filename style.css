@@ -98,7 +98,10 @@ nav a{
 }
 
 /* main section stylee */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 /* about section---------- */
@@ -107,7 +110,7 @@ nav a{
     padding: 100px 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
-    margin: 130px 210px;
+    margin: 130px 0px;
 }
 .about-prgh{
     text-align: center;
